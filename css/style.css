@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    height: 100%;
+}
+header{
+    height: 55px;
+    background-color: #ffb037;
+    text-align: center;
+    vertical-align: middle;
+}
+main{
+    background-color: #feffde;
+    
+}
+footer{
+    background-color: #31326f;
+    text-align: center;
+    color: silver;
+}
+
+ol{
+	list-style: decimal;
+}
+ul {
+	list-style: disc;
+}
+
+h1{
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
+main div{
+    
+    text-align: left;
+}
+#subhead{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.prg2{
+    margin-top: 3%;
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 25px;
+}
+b{
+    font-size: large;
+    font-weight: bold;
+}
