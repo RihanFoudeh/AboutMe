@@ -75,7 +75,7 @@ switch (football) {
 
 
 
-
+function qFour(){
 let favTeam = prompt('Do you think my favorite team is Real Madrid ?');
 favTeam = favTeam.toLowerCase();
 switch (favTeam) {
@@ -96,7 +96,7 @@ switch (favTeam) {
     break;
 
 }
-
+}
 
 
 let aboutMe = prompt('Do you think that I am an alien?');
@@ -209,7 +209,7 @@ alert('well let\'s start ');
 qOne();
 qTwo();
 qThree();
-
+qFour();
 }
 }
 
