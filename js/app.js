@@ -120,7 +120,7 @@ switch (aboutMe) {
 }
 }
 
-
+function qSix(){
 out: for (let i = 4; i >= 1; --i) {
 
   let guessNum = prompt('Enter a number from 0 to 10');
@@ -159,7 +159,7 @@ out: for (let i = 4; i >= 1; --i) {
 
 
 }
-
+}
 
 
 
@@ -212,6 +212,9 @@ qTwo();
 qThree();
 qFour();
 qFive();
+qSix();
+
+
 }
 }
 
