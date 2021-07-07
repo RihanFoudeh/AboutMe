@@ -10,7 +10,7 @@
 
 
 
-### I was navigator :  https://github.com/RihanFoudeh/AboutMe/pull/8
+### I was navigator :  https://github.com/RihanFoudeh/AboutMe/pull/7
 
 
-### I was driver : 
+### I was driver : https://github.com/OdaiAlqaiem/About-me/pull/7
