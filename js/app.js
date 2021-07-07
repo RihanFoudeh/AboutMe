@@ -1,22 +1,10 @@
 'use strict';
 let score = 0;
 
-let userName = prompt('What is your name ?');
-
-while (!userName) {
-  userName = prompt("please write your name");
-
-
-}
-alert('welcome ' + userName);
-console.log('welcome ' + userName)
 
 
 
-let game = confirm('Do you want to Play Guessing Game');
-
-
-
+function qOne(){
 let answerOne = prompt('Do you know someone called Rihan?');
 answerOne = answerOne.toLowerCase();
 switch (answerOne) {
@@ -34,7 +22,7 @@ switch (answerOne) {
     break;
 
 }
-
+}
 
 
 let answerTwo = prompt('Do you think I am doing well with software development ?');
@@ -212,4 +200,27 @@ lastQus: for (let atmp = 6; atmp >= 1; --atmp) {
 alert('Thanks for your time, ' + userName + ' You get ' + score + ' / 7');
 console.log('Thanks for your time, ' + userName + ' You get ' + score + ' / 7');
 
+
+function guessGame(){
+let game = confirm('Do you want to Play Guessing Game');
+
+if (game){
+alert('well let\'s start ');
+qOne();
+
+}
+}
+
+
+
+let userName = prompt('What is your name ?');
+
+while (!userName) {
+  userName = prompt("please write your name");
+
+
+}
+alert('welcome ' + userName);
+console.log('welcome ' + userName)
+guessGame ();
 
