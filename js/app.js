@@ -98,6 +98,7 @@ switch (favTeam) {
 }
 }
 
+function qFive(){
 
 let aboutMe = prompt('Do you think that I am an alien?');
 aboutMe = aboutMe.toLowerCase();
@@ -117,7 +118,7 @@ switch (aboutMe) {
     break;
 
 }
-
+}
 
 
 out: for (let i = 4; i >= 1; --i) {
@@ -210,6 +211,7 @@ qOne();
 qTwo();
 qThree();
 qFour();
+qFive();
 }
 }
 
