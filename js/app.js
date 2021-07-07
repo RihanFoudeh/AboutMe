@@ -49,7 +49,7 @@ switch (answerTwo) {
 
 
 
-
+function qThree(){
 let football = prompt('Do you think I watch football matches ?');
 football = football.toLowerCase();
 switch (football) {
@@ -68,7 +68,7 @@ switch (football) {
     break;
 
 }
-
+}
 
 
 
@@ -208,6 +208,7 @@ if (game){
 alert('well let\'s start ');
 qOne();
 qTwo();
+qThree();
 
 }
 }
