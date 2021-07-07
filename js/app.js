@@ -24,7 +24,7 @@ switch (answerOne) {
 }
 }
 
-
+function qTwo(){
 let answerTwo = prompt('Do you think I am doing well with software development ?');
 answerTwo = answerTwo.toLowerCase();
 switch (answerTwo) {
@@ -42,7 +42,7 @@ switch (answerTwo) {
 
     break;
 }
-
+}
 
 
 
@@ -207,6 +207,7 @@ let game = confirm('Do you want to Play Guessing Game');
 if (game){
 alert('well let\'s start ');
 qOne();
+qTwo();
 
 }
 }
