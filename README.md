@@ -10,5 +10,12 @@
 
 
 
+<<<<<<< HEAD
 ### I was navigator https://github.com/RihanFoudeh/AboutMe/pull/8
 ### I was driver   
+=======
+### I was navigator :  https://github.com/RihanFoudeh/AboutMe/pull/7
+
+
+### I was driver : https://github.com/OdaiAlqaiem/About-me/pull/7
+>>>>>>> 95d9fa0c4b314c6a1ff5350f9b6b6235ce005484
