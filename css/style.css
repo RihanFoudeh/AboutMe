@@ -4,8 +4,8 @@ body{
 }
 header{
     height: 55px;
-    background-color: #ffb037;
-    text-align: center;
+    /* background-color: #ffb037; */
+    /* text-align: center; */
     vertical-align: middle;
 }
 main{
@@ -14,25 +14,25 @@ main{
 }
 footer{
     background-color: #31326f;
-    text-align: center;
+    /* text-align: center; */
     color: silver;
 }
 
 ol{
-	list-style: decimal;
+	/* list-style: decimal; */
 }
 ul {
 	list-style: disc;
 }
 
 h1{
-    font-size: 50px;
+    /* font-size: 50px; */
     font-style: oblique;
     font-weight: bold;
 }
 main div{
     
-    text-align: left;
+    /* text-align: left; */
 }
 #subhead{
     font-size: 20px;

@@ -13,7 +13,7 @@ function qOne() {
       score++;
       alert('you are social');
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break;
     case 'no':
     case 'n':
@@ -33,7 +33,7 @@ function qTwo() {
       alert('Thank you, but I think I need more effort and work');
       score++;
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break;
     case 'no':
     case 'n':
@@ -58,7 +58,7 @@ function qThree() {
       alert('Yes, I really do :)');
       score++;
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break;
     case 'no':
     case 'n':
@@ -84,7 +84,7 @@ function qFour() {
       alert('It\'s easy to guess Real Madrid is my favorite club');
       score++;
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break;
     case 'no':
     case 'n':
@@ -114,7 +114,7 @@ function qFive() {
       alert('Yes!!');
       score++;
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break;
 
   }
@@ -138,7 +138,7 @@ function qSix() {
       alert('Well done, you hit the right Number');
       score++;
       // alert(`you have a score of ${score} /7`);
-      console.log(`you have a score of ${score} /7`);
+      // console.log(`you have a score of ${score} /7`);
       break out;
     }
 
@@ -182,7 +182,7 @@ function qSeven() {
         alert('Great, correct answer !!');
         score++;
         // alert(`you have a score of ${score} /7`);
-        console.log(`you have a score of ${score} /7`);
+        // console.log(`you have a score of ${score} /7`);
 
 
         break lastQus;
@@ -201,7 +201,7 @@ function qSeven() {
 
 
   alert('Thanks for your time, ' + userName + ' You get ' + score + ' / 7');
-  console.log('Thanks for your time, ' + userName + ' You get ' + score + ' / 7');
+  // console.log('Thanks for your time, ' + userName + ' You get ' + score + ' / 7');
 
 }
 
@@ -233,6 +233,6 @@ while (!userName) {
 
 }
 alert('welcome ' + userName);
-console.log('welcome ' + userName)
+// console.log('welcome ' + userName)
 guessGame();
 
